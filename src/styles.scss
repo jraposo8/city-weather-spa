@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+html, body { height: 100%; }
+body { margin: 20; font-family: Roboto, "Helvetica Neue", sans-serif; --tw-bg-opacity: 1;
+    background-color: rgba(59, 130, 246, var(--tw-bg-opacity)); }
+
+.blue-snackbar {
+    background-color: rgba(30, 58, 138);
+}
+
+.red-snackbar {
+    background-color: rgb(168, 38, 29);
+}
+
+
